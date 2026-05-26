@@ -3,7 +3,6 @@ import { config, fields, collection } from "@keystatic/core";
 export default config({
   storage: {
     kind: "github",
-    pathPrefix: "prod",
     repo: { owner: "spm18-hash", name: "astro-keystatic" },
   },
   collections: {
